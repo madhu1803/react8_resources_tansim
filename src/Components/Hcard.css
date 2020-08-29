@@ -1,0 +1,7 @@
+.card-container {
+    border: none !important;
+}
+
+.card-container .card-img {
+    height: 100%;
+}
