@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card } from "react-bootstrap";
-import { AiOutlineInbox, AiOutlinePhone, AiFillHome } from "react-icons/ai";
+import { AiFillHome } from "react-icons/ai";
 
 export default class Header extends Component {
   render() {
