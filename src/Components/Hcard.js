@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../Components/Hcard.css";
 export default class Hcard extends Component {
   render() {
-    let { shadow } = this.props;
+    let { shadow, title, description } = this.props;
     return (
       <div
         className={`card mb-5 card-container ${
@@ -19,12 +19,8 @@ export default class Hcard extends Component {
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
+              <h5 class="card-title">{title}</h5>
+              <p class="card-text">{description}</p>
             </div>
           </div>
         </div>
