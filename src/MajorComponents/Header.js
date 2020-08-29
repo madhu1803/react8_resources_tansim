@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card } from "react-bootstrap";
-import { AiOutlineInbox, AiOutlinePhone } from "react-icons/ai";
+import { AiOutlineInbox, AiOutlinePhone, AiFillHome } from "react-icons/ai";
 
 export default class Header extends Component {
   render() {
@@ -12,28 +12,16 @@ export default class Header extends Component {
         <Card.Body>
           <Card.Text>
             <div className="container">
-              <div className="row">
-                <div className="col-lg-8">
-                  <p>
-                    <strong>Contact Us.</strong>
-                  </p>
-                  <p>
-                    {" "}
-                    Send An Email.Call Us,What You Want,We'll Be Waiting For
-                    You.
-                  </p>
-                </div>
-                <div className=" col-lg-4">
-                  <p>
-                    <AiOutlineInbox className="mr-2" />
-                    madhumithaa@gmail.com
-                  </p>
-                  <p>
-                    <AiOutlinePhone className="mr-2" />
-                    +91 928675320
-                  </p>
-                </div>
-              </div>
+              <h1>Resources List</h1>
+              <p>
+                {" "}
+                Send An Email.Call Us,What You Want,We'll Be Waiting For You.
+              </p>
+
+              <p className="mt-5">
+                {" "}
+                <AiFillHome className="pb-1" /> Dashboard | Resources List
+              </p>
             </div>
           </Card.Text>
         </Card.Body>
